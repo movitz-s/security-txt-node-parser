@@ -1,4 +1,6 @@
 # security.txt Node Parser
+![](https://github.com/movitz-s/security-txt-node-parser/workflows/Node.js%20CI/badge.svg)
+![](https://codecov.io/gh/movitz-s/security-txt-node-parser/branch/master/graph/badge.svg)
 > parsing security.txt documents, zero dependencies, based on [draft-foudil-securitytxt-09](https://tools.ietf.org/html/draft-foudil-securitytxt-09)
 
 ## Installing
