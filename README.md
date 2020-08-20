@@ -31,17 +31,12 @@ parseSecurityTxt(document, {
 })
 ```
 
-#### strict
-default: false  
-if strict is true, an error will be thrown if the document is invalid
-
-#### parseUrls
-default: false  
-if parseUrls is true, any urls will be wrapped in the URL object
-
-#### parseDates
-default: false
-if parseDates is true, any dates will be wrapped in the Date object
+| property   | default | description                                                           |
+|------------|---------|-----------------------------------------------------------------------|
+| strict     | false   | if strict is true, an error will be thrown if the document is invalid |
+| parseUrls  | false   | if parseUrls is true, any urls will be wrapped in the URL object      |
+| parseDates | false   | if parseDates is true, any dates will be wrapped in the Date object   |
+  
 
 ## Licence
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
