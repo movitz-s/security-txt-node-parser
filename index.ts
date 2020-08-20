@@ -1,4 +1,4 @@
-type SecurityTxtDocument = {
+export type SecurityTxtDocument = {
 	contact: Array<string | URL>;
 	encryption: Array<string | URL>;
 	acknowledgments: Array<string | URL>;
@@ -11,7 +11,7 @@ type SecurityTxtDocument = {
 	signature?: string;
 }
 
-type SecurityTxtOptions = {
+export type SecurityTxtOptions = {
 	strict?: boolean;
 	parseUrls?: boolean;
 	parseDates?: boolean;
